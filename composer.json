@@ -12,6 +12,7 @@
     "require": {
         "php": ">=7.1"
     },
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "jwj_tools\\tools\\": "src/"
