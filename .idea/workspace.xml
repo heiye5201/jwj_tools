@@ -20,7 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63c64798-081f-4b00-af03-c436b37d218d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/PracticeWord.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/WordImport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qiniu/QiniuManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jwj_tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jwj_tools.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Common.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Common.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +48,11 @@
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/qiniu/php-sdk" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpword" />
+      <path value="$PROJECT_DIR$/vendor/pclzip/pclzip" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/common" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-escaper" />
     </include_path>
   </component>
   <component name="ProjectId" id="1lMyPNP9DH94rW0IDIV666X9Sv8" />
@@ -59,6 +75,14 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/Qiniu" />
+      <recent name="$PROJECT_DIR$/src/Practice" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,7 +94,7 @@
       <workItem from="1607421234382" duration="1853000" />
       <workItem from="1607477763258" duration="466000" />
       <workItem from="1607563170249" duration="6000" />
-      <workItem from="1607588446195" duration="774000" />
+      <workItem from="1607588446195" duration="6045000" />
     </task>
     <servers />
   </component>
@@ -90,10 +114,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="540" y="347" key="NewPhpFileDialog" timestamp="1607421392324">
+    <state x="458" y="179" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607593695348">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state x="540" y="347" key="NewPhpFileDialog/0.25.1440.790@0.25.1440.790" timestamp="1607421392324" />
+    <state x="458" y="179" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1440.790@0.25.1440.790" timestamp="1607593695348" />
+    <state x="540" y="347" key="NewPhpFileDialog" timestamp="1607591712123">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state x="540" y="347" key="NewPhpFileDialog/0.25.1440.790@0.25.1440.790" timestamp="1607591712123" />
     <state x="229" y="56" key="SettingsEditor" timestamp="1607421372847">
       <screen x="0" y="25" width="1440" height="790" />
     </state>

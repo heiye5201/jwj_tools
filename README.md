@@ -6,4 +6,8 @@
 根据提示完成对composer插件包的创建
 
 
-执行composer update 
+执行 composer update 
+
+composer require jwj/tools1.0 dev-main
+
+
