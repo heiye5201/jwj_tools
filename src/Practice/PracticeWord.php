@@ -8,8 +8,11 @@ use jwj_tools\tools\Qiniu\QiniuManager;
 class PracticeWord
 {
 
-
-    public  $practicesArr = [];
+    protected $courses_id = 0 ;
+    protected $practice_word_id = 0 ;
+    protected $practiceType = '' ;
+    protected $practice = [] ;
+    protected $practiceArr = [] ;
 
 
     public  function getWordData($wordUrl,$practiceWordId,$coursesId){
