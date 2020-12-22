@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63c64798-081f-4b00-af03-c436b37d218d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Practice/PracticeWord.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/PracticeWord.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +57,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -84,7 +89,8 @@
       <workItem from="1607421234382" duration="1853000" />
       <workItem from="1607477763258" duration="466000" />
       <workItem from="1607563170249" duration="6000" />
-      <workItem from="1607588446195" duration="6551000" />
+      <workItem from="1607588446195" duration="7048000" />
+      <workItem from="1608628106377" duration="599000" />
     </task>
     <servers />
   </component>
@@ -102,19 +108,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="458" y="179" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607593695348">
-      <screen x="0" y="25" width="1440" height="790" />
-    </state>
-    <state x="458" y="179" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1440.790@0.25.1440.790" timestamp="1607593695348" />
-    <state x="540" y="347" key="NewPhpFileDialog" timestamp="1607591712123">
-      <screen x="0" y="25" width="1440" height="790" />
-    </state>
-    <state x="540" y="347" key="NewPhpFileDialog/0.25.1440.790@0.25.1440.790" timestamp="1607591712123" />
-    <state x="229" y="56" key="SettingsEditor" timestamp="1607421372847">
-      <screen x="0" y="25" width="1440" height="790" />
-    </state>
-    <state x="229" y="56" key="SettingsEditor/0.25.1440.790@0.25.1440.790" timestamp="1607421372847" />
   </component>
 </project>

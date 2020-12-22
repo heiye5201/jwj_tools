@@ -20,7 +20,7 @@ class PracticeWord
         $html =  $word_model->wordToHtmlGet($wordUrl);
         $data = $word_model->getPractice($html) ;
         $this->dealPractice($data,$practiceWordId,$coursesId);
-        return  ;
+        return [] ;
     }
 
 

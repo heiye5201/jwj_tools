@@ -157,7 +157,6 @@ function getDirFileName($dir) {
         60=>"阅读理解",
         65=>"词形填空",
         70=>"翻译题",
-
         75=>"判断说明题",
         80=>"词语解释题",
         85=>"材料分析题",
@@ -169,6 +168,26 @@ function getDirFileName($dir) {
         115=>"综合应用题",
         120=>"作文",
         135=>'图片选择填空题',
-
     ];
  }
+
+
+
+
+function http_post_json($url, $jsonStr){
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $jsonStr);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+            'Content-Type: application/json; charset=utf-8',
+            'Content-Length: ' . strlen($jsonStr)
+        )
+    );
+    $response = curl_exec($ch);
+    curl_close($ch);
+    return $response;
+}
+
+
