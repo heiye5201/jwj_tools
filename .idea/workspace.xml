@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="63c64798-081f-4b00-af03-c436b37d218d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/PhalApiClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/PhalApiClient.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +68,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Api" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/Qiniu" />
       <recent name="$PROJECT_DIR$/src/Practice" />
@@ -86,6 +88,9 @@
       <workItem from="1607563170249" duration="6000" />
       <workItem from="1607588446195" duration="7048000" />
       <workItem from="1608628106377" duration="1866000" />
+      <workItem from="1609750169900" duration="1152000" />
+      <workItem from="1609810319261" duration="997000" />
+      <workItem from="1609915637122" duration="109000" />
     </task>
     <servers />
   </component>

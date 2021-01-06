@@ -152,39 +152,29 @@ class PhalApiClient {
     protected function doRequest($url, $data, $timeoutMs = 3000)
     {
         $ch = curl_init();
-
         $user_name = isset($data['oauth_user_name']) ? $data['oauth_user_name']:env('three_api_oauth.user_name');
         $secret = isset($data['oauth_secret']) ? $data['oauth_secret']:env('three_api_oauth.secret') ;
-
         $date = gmdate('D, d M Y H:i:s \G\M\T');
-
         $str = "X-date: ".$date . '';
         $signature = base64_encode(hash_hmac("sha1", $str, $secret, true));
-
         $head = array(
-            //"Host: ".parse_url($url)['host'],
             "X-date: ".$date,
             'Authorization: hmac username="'.$user_name.'", algorithm="hmac-sha1", headers="X-date", signature="'.$signature.'"',
         );
-
         curl_setopt($ch, CURLOPT_URL, $url);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_HEADER, 0);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_HTTPHEADER, $head);
-        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT_MS, $timeoutMs);
+//        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT_MS, $timeoutMs);
         if(env('three_api_oauth.gateway')){
             curl_setopt($ch, CURLOPT_PORT, env('three_api_oauth.gateway'));
         }
-
         if (!empty($data)) {
             curl_setopt($ch, CURLOPT_POST, 1);
             curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
         }
-
         $rs = curl_exec($ch);
-
         curl_close($ch);
-
         return $rs;
     }
 
