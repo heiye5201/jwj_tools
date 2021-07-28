@@ -20,8 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63c64798-081f-4b00-af03-c436b37d218d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/WxPay/WxPay.Config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WxPay/WxPay.NativePay.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WxPay/lib/WxPay.Api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WxPay/lib/WxPay.Config.Interface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WxPay/lib/WxPay.Data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WxPay/lib/WxPay.Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WxPay/lib/WxPay.Notify.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WxPay/log.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jwj_tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jwj_tools.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/PhalApiClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/PhalApiClient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +49,12 @@
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
-      <path value="$PROJECT_DIR$/vendor/qiniu/php-sdk" />
-      <path value="$PROJECT_DIR$/vendor/phpoffice/phpword" />
       <path value="$PROJECT_DIR$/vendor/pclzip/pclzip" />
-      <path value="$PROJECT_DIR$/vendor/phpoffice/common" />
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-escaper" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/common" />
+      <path value="$PROJECT_DIR$/vendor/qiniu/php-sdk" />
+      <path value="$PROJECT_DIR$/vendor/jwj/tools1.0" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpword" />
     </include_path>
   </component>
   <component name="ProjectId" id="1lMyPNP9DH94rW0IDIV666X9Sv8" />
@@ -55,7 +67,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/WxPay" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -68,11 +80,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/WxPay" />
       <recent name="$PROJECT_DIR$/src/Api" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/Qiniu" />
       <recent name="$PROJECT_DIR$/src/Practice" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -90,7 +102,8 @@
       <workItem from="1608628106377" duration="1866000" />
       <workItem from="1609750169900" duration="1152000" />
       <workItem from="1609810319261" duration="997000" />
-      <workItem from="1609915637122" duration="109000" />
+      <workItem from="1609915637122" duration="308000" />
+      <workItem from="1627380934166" duration="2761000" />
     </task>
     <servers />
   </component>

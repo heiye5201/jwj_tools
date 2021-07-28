@@ -1,26 +1,13 @@
 {
-    "name": "jwj/tools1.0",
-    "description": "from jwj tools",
-    "type": "library",
+    "name": "jiweijian/jwj_tools",
     "authors": [
         {
             "name": "jwj",
             "email": "664047456@qq.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
-        "php": ">=7.1",
-        "qiniu/php-sdk": "^7.3",
-        "phpoffice/phpword": "^0.17.0"
-    },
-    "license": "MIT",
-    "require-dev": {
-
-    },
-    "autoload": {
-        "psr-4": {
-            "jwj_tools\\tools\\": "src/"
-        },
-        "files": ["src/functions.php","src/config.php"]
+        "jwj/tools1.0": "dev-main"
     }
 }
